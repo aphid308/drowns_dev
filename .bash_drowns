@@ -1,0 +1,7 @@
+alias cook-django='cookiecutter https://github.com/pydanny/cookiecutter-django'
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+LS_COLORS=$LS_COLORS:'di=4;96:' ; export LS_COLORS
+export PS1="\[$(tput bold)\]\[$(tput setaf 6)\]\t \[$(tput setaf 2)\][\[$(tput setaf 3)\]\u\[$(tput setaf 1)\]@\[$(tput setaf 3)\]\h \[$(tput setaf 6)\]\W\[$(tput setaf 2)\]]\[$(tput setaf 4)\]\\$ \[$(tput sgr0)\]"
+export COMPOSE_FILE=local.yml
+source git-flow-completion.bash
+export MAIL=/var/mail/pjury
