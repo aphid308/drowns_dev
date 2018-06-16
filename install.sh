@@ -20,7 +20,7 @@ sudo apt-get install -y \
     libffi-dev libssl-dev \
     libjpeg-dev docker.io \
     libpq-dev postgresql \
-    python-pip
+    python-pip cmake
 
 #Install docker-compose
 sudo curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
